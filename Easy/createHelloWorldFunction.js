@@ -12,7 +12,7 @@ f(); // "Hello World"
 The function returned by createHelloWorld should always return "Hello World".
  */
 
-var createHelloWorld = function() {
+var createHelloWorld = function () {
     return () => "Hello World";
 };
 
